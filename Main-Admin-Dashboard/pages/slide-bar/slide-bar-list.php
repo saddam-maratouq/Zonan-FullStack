@@ -125,6 +125,26 @@
                     </thead>
                     <tbody>
                       <!-- Data will be filled later via API / DB -->
+                      <!-- Example row structure (for reference):
+                      <tr>
+                        <td>1</td>
+                        <td><img src="..." width="60" height="30" class="rounded"></td>
+                        <td>Summer Sale</td>
+                        <td>50% off all items...</td>
+                        <td>Shop Now</td>
+                        <td><a href="#">/offers/summer</a></td>
+                        <td class="text-right">
+                          <a href="./slide-bar-form.php?id=1"
+                             class="btn btn-link btn-info btn-icon btn-sm" title="Edit">
+                            <i class="fa fa-pencil"></i>
+                          </a>
+                          <a href="./slide-bar-delete.php?id=1"
+                             class="btn btn-link btn-info btn-icon btn-sm delete-btn" title="Delete">
+                            <i class="fa fa-trash"></i>
+                          </a>
+                        </td>
+                      </tr>
+                      -->
                     </tbody>
                   </table>
                 </div>
@@ -173,6 +193,13 @@
   <script src="../../assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
   <!-- Paper Dashboard DEMO methods -->
   <script src="../../assets/demo/demo.js"></script>
+
+  <!-- Delete confirm -->
+  <script>
+    $(document).on('click', '.delete-btn', function (e) {
+      if (!confirm('Are you sure?')) e.preventDefault();
+    });
+  </script>
 </body>
 
 </html>
