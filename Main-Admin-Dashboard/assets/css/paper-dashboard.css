@@ -20,6 +20,17 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 
 Copyright (c) 2015 Daniel Eden
 */
+
+/* general  */
+
+/* .active {
+
+background-color: green !important ;
+
+}  */
+ 
+
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;

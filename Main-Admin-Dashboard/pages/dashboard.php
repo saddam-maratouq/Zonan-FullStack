@@ -1,17 +1,10 @@
-<!--
-=========================================================
-* Paper Dashboard 2 - v2.0.1
-=========================================================
 
-* Product Page: https://www.creative-tim.com/product/paper-dashboard-2
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+<?php 
 
-Coded by www.creative-tim.com
 
- =========================================================
 
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
--->
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -51,102 +44,10 @@ Coded by www.creative-tim.com
           </div> -->
         </a>
       </div>
-     <div class="sidebar-wrapper">
-  <ul class="nav">
-
-
-    <li class="active">
-      <a href="./dashboard.html">
-         <i class="nc-icon nc-grid-45"></i>
-        <p>Dashboard</p>
-      </a>
-    </li>
-    <li class="">
-      <a href="./header.html">
-        <i class="nc-icon nc-bank"></i>
-        <p>Header</p>
-      </a>
-    </li>
-    <li>
-      <a href="./footer.html">
-        <i class="nc-icon nc-diamond"></i>
-        <p>Footer</p>
-      </a>
-    </li>
-    <li>
-      <a href="./slid-bar.html">
-        <i class="nc-icon nc-pin-3"></i>
-        <p>Slide Bar</p>
-      </a>
-    </li>
-    <li>
-      <a href="./offer-section-1.html">
-        <i class="nc-icon nc-bell-55"></i>
-        <p>Offer Section 1</p>
-      </a>
-    </li>
-    <li>
-      <a href="./offer-section-2.html">
-        <i class="nc-icon nc-single-02"></i>
-        <p>Offer Section 2 </p>
-      </a>
-    </li>
-    <li>
-      <a href="./best-seller.html">
-        <i class="nc-icon nc-tile-56"></i>
-        <p>Best Seller</p>
-      </a>
-    </li>
-    <li>
-      <a href="./all-inner-sliders.html">
-        <i class="nc-icon nc-caps-small"></i>
-        <p>All Inner Sliders</p>
-      </a>
-    </li>
-    <li>
-      <a href="./feedback.html">
-        <i class="nc-icon nc-spaceship"></i>
-        <p>Feedback</p>
-      </a>
-    </li>
-    <li>
-      <a href="./contact-us.html">
-        <i class="nc-icon nc-email-85"></i>
-        <p>Contact Us</p>
-      </a>
-    </li>
-    <li>
-        <a href="./users.html">
-        <i class="nc-icon nc-single-02"></i>
-        <p>Users</p>
-        </a>  
-    </li>
-    <li>
-      <a href="./stores.html">
-        <i class="nc-icon nc-shop"></i>
-        <p>Stores</p>
-      </a>
-    </li>
-    <li>
-      <a href="./orders.html">
-        <i class="nc-icon nc-bag-16"></i>
-        <p>Orders</p>
-      </a>
-    </li>
-    <li>
-      <a href="./intro-admin-store.html">
-        <i class="nc-icon nc-paper"></i>
-        <p>Intro Admin Store</p>
-      </a>
-    </li>
-    <li>
-      <a href="./messages.html">
-        <i class="nc-icon nc-chat-33"></i>
-        <p>Messages</p>
-      </a>
-    </li>
-  </ul>
-</div>
+      <!-- dynamic side  bar  ... -->
+        <!-- SIDEBAR -->
+    <?php include __DIR__ . '/../includes/components/sidebar.php'; ?>
+         
     </div>
     <div class="main-panel">
       <!-- Navbar -->
@@ -394,7 +295,7 @@ Coded by www.creative-tim.com
                 <li><a href="https://www.creative-tim.com" target="_blank">Creative Tim</a></li>
                 <li><a href="https://www.creative-tim.com/blog" target="_blank">Blog</a></li>
                 <li><a href="https://www.creative-tim.com/license" target="_blank">Licenses</a></li>
-              </ul>
+              </ul> 
             </nav>
             <div class="credits ml-auto">
               <span class="copyright">
@@ -431,3 +332,5 @@ Coded by www.creative-tim.com
 </body>
 
 </html>
+
+
