@@ -74,6 +74,6 @@ return [
 
     ['title' => 'Messages', 'icon' => 'nc-chat-33', 'children' => [
         ['title' => 'Message Form', 'url' => $base . '/pages/messages/message-form.php'],
-        ['title' => 'Message List', 'url' => $base . '/pages/messages/message-list.php'],
+        ['title' => 'Message List', 'url' => $base . '/pages/messages/messages-list.php'],
     ]],
 ];
