@@ -33,7 +33,7 @@
         </a>
       </div>
 
-      <!-- ============ SIDEBAR (included) ============ -->
+      <!-- ============ SIDEBAR  ============ -->
       <?php include __DIR__ . '/../../includes/components/sidebar.php'; ?>
 
     </div>

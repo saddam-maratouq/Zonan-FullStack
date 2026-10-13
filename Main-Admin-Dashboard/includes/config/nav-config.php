@@ -53,8 +53,8 @@ return [
     ]],
 
     ['title' => 'Users', 'icon' => 'nc-single-02', 'children' => [
-        ['title' => 'User Form', 'url' => $base . '/pages/users/user-form.php'],
-        ['title' => 'User List', 'url' => $base . '/pages/users/user-list.php'],
+        ['title' => 'User Form', 'url' => $base . '/pages/users/users-form.php'],
+        ['title' => 'User List', 'url' => $base . '/pages/users/users-list.php'],
     ]],
 
     ['title' => 'Stores', 'icon' => 'nc-shop', 'children' => [
