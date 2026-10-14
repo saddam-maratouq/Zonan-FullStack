@@ -63,8 +63,8 @@ return [
     ]],
 
     ['title' => 'Orders', 'icon' => 'nc-bag-16', 'children' => [
-        ['title' => 'Order Form', 'url' => $base . '/pages/orders/order-form.php'],
-        ['title' => 'Order List', 'url' => $base . '/pages/orders/order-list.php'],
+        ['title' => 'Order Form', 'url' => $base . '/pages/orders/orders-form.php'],
+        ['title' => 'Order List', 'url' => $base . '/pages/orders/orders-list.php'],
     ]],
 
     ['title' => 'Intro Admin Store', 'icon' => 'nc-paper', 'children' => [
