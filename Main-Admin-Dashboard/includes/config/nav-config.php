@@ -58,8 +58,8 @@ return [
     ]],
 
     ['title' => 'Stores', 'icon' => 'nc-shop', 'children' => [
-        ['title' => 'Store Form', 'url' => $base . '/pages/stores/store-form.php'],
-        ['title' => 'Store List', 'url' => $base . '/pages/stores/store-list.php'],
+        ['title' => 'Store Form', 'url' => $base . '/pages/stores/stores-form.php'],
+        ['title' => 'Store List', 'url' => $base . '/pages/stores/stores-list.php'],
     ]],
 
     ['title' => 'Orders', 'icon' => 'nc-bag-16', 'children' => [

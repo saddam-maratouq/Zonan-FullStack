@@ -1,0 +1,42 @@
+
+/*  store from check box  force show   */
+
+  .form-check-input {
+    width: 18px;
+    height: 18px;
+    margin-top: 4px;
+    cursor: pointer;
+    border: 1px solid #888;
+    position: relative;
+    opacity: 1;
+    appearance: auto;
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+  }
+
+  .form-check-label {
+    cursor: pointer;
+    padding-left: 6px;
+    color: #1b2b5a;
+  }
+
+  .parent-cat {
+    pointer-events: none;   
+    opacity: 0.9;
+  }
+
+  .form-check {
+    padding-left: 0;
+    margin-bottom: 6px;
+    
+  }
+
+  .form-check input[type="checkbox"],
+.form-check-radio input[type="radio"] {
+  opacity: 1;
+  position: absolute;
+  visibility: visible; 
+
+}
+
+/*  End store from check box  force show    */
