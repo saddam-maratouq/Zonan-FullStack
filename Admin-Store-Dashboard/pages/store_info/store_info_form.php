@@ -119,7 +119,7 @@ Material Dashboard - v2.1.2
                     </div>
 
                     <!-- 2. Store Logo -->
-                    <div class="row">
+                    <!-- <div class="row">
                       <div class="col-md-12">
                         <div class="form-group">
                           <label>Store Logo</label>
@@ -127,7 +127,13 @@ Material Dashboard - v2.1.2
                           <small class="form-text text-muted">Hint: Best size is 500x500px (PNG or JPG). Max 2MB.</small>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
+
+                    <div class="mb-3 mt-3" bis_skin_checked="1">
+                  <label class=" mb-3">Store Logo</label>
+                  <input type="file" name="store_img" class="form-control" accept="image/*" title="">
+                  <small class="text-muted">Allowed: JPG, JPEG, PNG, GIF, WEBP, SVG (Max: 5MB)</small>
+                      </div>
 
                     <!-- 3. Email & 4. Phone -->
                     <div class="row">
