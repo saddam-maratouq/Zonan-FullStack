@@ -42,7 +42,7 @@ $sidebarMenu = [
     [
         'title' => 'Ads Sponsor',
         'icon' => 'campaign',
-        'link' => 'pages/ads_sponsor/ads_form.php',
+        'link' => 'pages/ads_sponsor/ads.php',
         'type' => 'single'
     ],
     [
