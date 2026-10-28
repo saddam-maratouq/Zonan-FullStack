@@ -173,7 +173,8 @@ require_once '../../config/config.php';
                       </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row mb-3 ">
+
                       <div class="col-md-6">
                         <div class="form-group">
                           <label class="bmd-label-floating">Store Name *</label>
@@ -184,11 +185,17 @@ require_once '../../config/config.php';
                      <!-- <div class="col-md-6">
                     <div class="form-group mt-4">
                         <label style="display: block; margin-bottom: 10px;">Store Logo *</label>
-                        
-                        <input type="file" name="store_logo" accept="image/*" required style="display: block !important; opacity: 1 !important; position: relative !important; width: 100%; border: 1px solid #ccc; padding: 8px; border-radius: 4px;">
+                             <input type="file" name="slider_img" class="form-control" accept="image/*" title="">
                         <small class="form-text text-muted mt-2">Hint: 500x500px (PNG/JPG). Max 2MB.</small>
                     </div>
                 </div> -->
+
+                <div class="mb-3 col-md-6" bis_skin_checked="1">
+                  
+                  <label class=" mb-3">product Image</label>
+                  <input type="file" name="slider_img" class="form-control" accept="image/*" title="">
+                  <small class="text-muted">Allowed: JPG, JPEG, PNG, GIF, WEBP, SVG (Max: 5MB)</small>
+               </div>
 
                     </div>
 
