@@ -36,7 +36,7 @@ $sidebarMenu = [
     [
         'title' => 'Orders',
         'icon' => 'shopping_cart',
-        'link' => 'pages/orders/order_list.php',
+        'link' => 'pages/orders/orders_list.php',
         'type' => 'single'
     ],
     [
